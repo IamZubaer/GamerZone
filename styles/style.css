@@ -178,8 +178,10 @@ body {
 }
 .img--container {
   margin-top: 10px;
-  height: 408px;
   border: 5px solid transparent;
+  display: flex;
+  align-items: center;
+  justify-content: center;
 }
 .card:hover .img--container {
   border: 5px solid #f948b2;
@@ -235,7 +237,7 @@ body {
 }
 .genre--section {
   margin-top: 12.8rem;
-  height: 30rem;
+  /* height: 30rem; */
   background-color: rgba(255, 66, 165, 0.1);
   display: flex;
   align-items: center;
@@ -245,6 +247,7 @@ body {
   gap: 4.8rem;
   flex-wrap: wrap;
   justify-content: center;
+  padding: 6.4rem;
 }
 .genre--img {
   margin-right: 0.8rem;
@@ -276,6 +279,7 @@ body {
 .logo {
   display: flex;
   justify-content: center;
+  align-items: center;
 }
 .logo--img {
   margin-right: 0.8rem;
@@ -302,7 +306,7 @@ body {
 .social--icons {
   display: flex;
   justify-content: center;
-  gap: 2.4rem;
+  gap: 2rem;
   margin-bottom: 3.2rem;
 }
 .footer--icon {
