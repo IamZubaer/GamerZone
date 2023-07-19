@@ -183,7 +183,7 @@ body {
 }
 .card:hover .img--container {
   border: 5px solid #f948b2;
-  border-radius: 20px;
+  border-radius: 20.5px;
 }
 .card:hover .dark {
   filter: brightness(30%);
