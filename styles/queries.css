@@ -1,3 +1,92 @@
+@media (max-width: 48em) {
+  .html {
+    font-size: 56.25%;
+    max-width: 100%;
+    overflow-x: hidden;
+  }
+  .body {
+    max-width: 100%;
+    overflow-x: hidden;
+  }
+  .section {
+    overflow-x: hidden;
+  }
+  .container {
+    width: 46rem;
+  }
+  .hero--container {
+    grid-template-columns: 1fr;
+    justify-items: center;
+    gap: 1.8rem;
+  }
+  .hero--left {
+    margin-top: 2.4rem;
+    text-align: center;
+  }
+  .hero--right {
+    display: flex;
+    justify-content: center;
+  }
+  .hero--img {
+    width: 70%;
+  }
+  .hero--header--1 {
+    font-size: 3rem;
+  }
+  .hero--background {
+    height: 50%;
+    left: 0%;
+    top: 0%;
+  }
+  .card--container {
+    grid-template-columns: 1fr 1fr;
+  }
+  .games--container {
+    grid-template-columns: 1fr;
+    justify-items: center;
+    gap: 1.6rem;
+  }
+  .game--left {
+    text-align: center;
+  }
+  .game--right {
+    display: flex;
+    justify-content: center;
+  }
+
+  .game--header {
+    font-size: 2.4rem;
+  }
+  .game--text {
+    font-size: 0.8rem;
+  }
+  .game--img--1 {
+    width: 70%;
+  }
+  .game--img--2 {
+    width: 50%;
+  }
+  .angela {
+    transform: translate(10%, 40%);
+  }
+  .genre--container {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    gap: 1.6rem;
+    padding: 2rem;
+  }
+  .genre--btn {
+    font-size: 1rem;
+    padding: 3px;
+    border: solid 1px transparent;
+  }
+  .genre--btn:hover {
+    border: solid 1px #f948b2;
+  }
+  .genre--img {
+    width: 30%;
+  }
+}
 @media (max-width: 27em) {
   .html {
     font-size: 50%;
@@ -176,6 +265,7 @@
     text-align: center;
   }
 }
+
 /* --- 01 TYPOGRAPHY SYSTEM
 
 - Font sizes (px)
