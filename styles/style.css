@@ -152,6 +152,7 @@ body {
 .card--text {
   margin-top: 0.8rem;
   line-height: 1.2;
+  margin-left: 10px;
 }
 .card {
   position: relative;
